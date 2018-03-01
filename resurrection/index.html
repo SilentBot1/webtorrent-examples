@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <script src="bundle.js"></script>
+  </head>
+  <body>
+    <h1>Resurrecting WebTorrent example!</h1>
+    <input type="file" id="fileSubmit" multiple>
+    <input type="button" value="2. Add torrent" onclick="addInputFiles()">
+    <input type="button" value="3. Resurrect" onclick="resurrectAll()">
+    <h3>Steps</h3>
+    <p>1. First select a file using the file selector. Be weary that the current WebTorrent libary has issues with large files in browsers.</p>
+    <p>2. Click Add torrent, this will load the torrent into the indexedDB store, save the metadata, then destroy the torrent (<b>wait for it</b>).</p>
+    <p>3. Stay or reload the page and click Resurrectingresurrecting, this will load the torrents back into the WebTorrent client from the indexedDB store!</p>
+    <p>0. Don't forget to delete indexedDB store after you're done, programatically itterating through all indexedDB on a website is impossible currently!</p>
+    <p><b>I'm not an interface designer, sorry for the lack of styling!</b></p>
+  </body>
+</html>

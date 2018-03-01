@@ -1,0 +1,17 @@
+{
+  "name": "example-wt-idb-resurrection",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify index.js -o bundle.js",
+    "start": "echo \"Please install 'local-web-server' globally and execute 'ws' in this directory!\" && exit 1"
+  },
+  "author": "SilentBot1",
+  "license": "ISC",
+  "dependencies": {
+    "indexeddb-chunk-store": "^2.2.1",
+    "webtorrent": "^0.98.23"
+  }
+}
